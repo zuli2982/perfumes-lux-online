@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfumes Lux - Contáctenos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contactUs.css">
+
+</head>
+<body>
+
+    <div id="header-placeholder"></div>
+
+    <!-- Main -->
+
+    <main class="main-content">
+        
+        <!-- Formulario -->
+        <div class="shell shell-small clear">
+            <div class="content">
+                <section class="section section-primary">
+                    <h1 class="section-title section-title-border">Contáctenos</h1>
+                    <div class="form form-contact contacUs-dropdown">
+                        <form id="command" action="" method="post">
+                            <div class="article">
+                                <p>Estamos a solo unos clics de distancia. Si tienes alguna pregunta o inquietud, si deseas compartir tus comentarios con nosotros o si quieres iniciar una conversación de negocios, ponte en contacto con nosotros y nuestro equipo te responderá en breve.</p>
+                                <div class="required-fields">*Campos obligatorios</div>
+                            </div>
+                            <div class="form-section">
+                                <div class="form-row">
+                                    <label class="form-label" for="lead.metadata['name']">Nombre:*</label>
+                                    <div class="form-controls">
+                                        <input id="lead.metadata['name']" name="lead.metadata['name']" class="field" placeholder="Su nombre" type="text" value autocomplete="on">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <label class="form-label"  for="lead.email">Correo electrónico:*</label>
+                                    <div class="form-controls">
+                                        <input id="lead.email" name="lead.email" class="field" placeholder="correo@sitioweb.com" type="email" value autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <label class="form-label" for="lead.metadata['message']">Mensaje:*</label>
+                                    <div class="form-controls">
+                                        <textarea id="lead.metadata['message']" name="lead.metadata['message']" class="textarea" placeholder="Deje su mensaje aquí..." rows="10" cols="30"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-actions">
+                                    <div class="privacy-policy inquire-gdpr">
+                                        Este sitio está protegido por la <a href="privacy-policy.html" target="_blank">Política de privacidad</a> y los <a href="terms.html" target="_blank">Términos del servicio</a>.
+                                    </div>
+                                    <input id="lead.leadType" name="lead.leadType" value="CONTACT_US" type="hidden">
+                                    <input type="submit" name="_eventId_lead_add_CONTACT_US" value="Enviar" class="btn form-btn btn-grey">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+
+    <div id="footer-placeholder"></div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>

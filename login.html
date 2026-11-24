@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfumes Lux - Inicio de sesión</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+
+    <header>
+
+        <!-- Barra superior -->
+
+        <div class="barra-superior">
+            Perfumes originales • Envío a toda Colombia
+        </div>
+
+        <!-- Logo -->
+    
+        <div class="logo-login">            
+            <a href="index.html" target="_blank">
+                <img src="img/logoPL.png" alt="Logo Perfume Lux">
+            </a>
+        </div>
+    </header>
+    <!-- Main -->
+
+    <main class="main-content">
+        
+        <!-- Formulario -->
+
+        <div class="forms">
+            <h1>Inicio de sesión</h1>
+            <form method="post">
+                <div class="username">
+                    <input type="text" required>
+                    <label>Nombre de usuario</label>
+                    
+                </div>
+                <div class="contenedor-pass">
+                    <input 
+                        type="password"
+                        id="contrasena"
+                        name="contrasena"
+                        required>
+                    <label> Contraseña</label>
+
+                    <button
+                        type="button"
+                        id="mostrar-pass"
+                        aria-label="Mostrar contraseña">
+                        <i class="bi bi-eye"></i>
+                    </button>                    
+                </div>
+                <div class="forgot-password">
+                    ¿Olvidó su contraseña?
+                </div>
+                <input type="submit" value="Iniciar">
+                <div class="signup">
+                    Quiero <a href="registro.html">registrarme</a>
+                    <p>Si continúa, acepta nuestros <a href="#">Términos del servicio</a> </p>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <!-- Footer -->
+
+    <div id="footer-placeholder"></div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
