@@ -309,6 +309,98 @@ a, button, input[type="submit"], input[type="button"], input[type="reset"], inpu
 
 /*Features*/
 
+/*Grid catálogo*/
+
+.sidebar-filtros { 
+    background: #fff; 
+    border: 1px solid #e9ecef; 
+    border-radius: 12px; 
+    position: sticky; 
+    top: 20px; 
+}
+
+.accordion-button:not(.collapsed) { 
+    background: transparent; 
+    color: #1a1a1a; 
+    box-shadow: none; 
+}
+
+.accordion-button:focus { 
+    box-shadow: none; 
+}
+
+.form-check-input:checked { 
+    background-color: #1a1a1a; 
+    border-color: #1a1a1a; 
+}
+
+.product-card { 
+    border: 1px solid #e9ecef; 
+    border-radius: 12px; 
+    overflow: hidden; 
+    background: #fff; 
+    transition: transform 0.2s, box-shadow 0.2s; 
+}
+
+.product-card:hover { 
+    transform: translateY(-5px); 
+    box-shadow: 0 12px 24px rgba(0,0,0,0.08); 
+}
+
+.product-img-wrapper { 
+    position: relative; 
+    height: 220px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 1rem; 
+    overflow: hidden; 
+}
+
+.product-img-wrapper img { 
+    max-height: 100%; 
+    max-width: 100%; 
+    object-fit: contain; 
+}
+
+.product-brand { 
+    font-size: 0.72rem; 
+    letter-spacing: 0.08em; 
+    text-transform: uppercase; 
+    color: #6c757d; 
+    font-weight: 600; 
+}
+
+.product-title { 
+    font-size: 0.95rem; 
+    font-weight: 700; 
+}
+
+.badge-olfativa { 
+    background-color: #f4f1ea; 
+    color: #6e5838; 
+    font-size: 0.72rem; 
+    font-weight: 500; 
+}
+
+.rating-stars { 
+    color: #f59e0b; 
+    font-size: 0.85rem; 
+}
+
+.btn-agregar { 
+    background-color: #1a1a1a; 
+    color: #fff; 
+    border-radius: 8px; 
+}
+
+.btn-agregar:hover { 
+    background-color: #c59d5f; 
+    color: #fff; 
+}
+
+/********/
+
 .container-features{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
